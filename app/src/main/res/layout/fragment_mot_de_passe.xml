@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" >
+        
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/edit_ancien_mdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:inputType="textPassword"
+            android:hint="L'ancien mot de passe" 
+            android:maxLength="4"
+            bootstrapbutton:be_roundedCorners="false"
+            bootstrapbutton:be_state="primary"
+	/>
+    
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/edit_nouveau_mdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:inputType="textPassword"
+            android:maxLength="4"
+            android:hint="Nouveau mot de passe" 
+            bootstrapbutton:be_roundedCorners="false"
+            bootstrapbutton:be_state="primary"
+	/>
+    
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/edit_confirme_nouveau_mdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:inputType="textPassword"
+            android:hint="Confirmer le nouveau mot de passe" 
+            android:maxLength="4"
+            bootstrapbutton:be_roundedCorners="false"
+            bootstrapbutton:be_state="primary"
+	/>
+    
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/edit_phrase_secrete"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:inputType="text"
+            android:maxLength="15"
+            android:hint="Phrase secrète (15 characteres Maximum)" 
+            bootstrapbutton:be_roundedCorners="false"
+            bootstrapbutton:be_state="primary"
+	/>
+    
+    
+     <com.beardedhen.androidbootstrap.BootstrapButton
+	    android:id="@+id/btn_change_mot_de_passe"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="10dp"
+	    android:layout_gravity="center_horizontal"
+	    android:text="Changer"
+	    bootstrapbutton:bb_icon_right="fa-key"
+	    bootstrapbutton:bb_type="danger"
+	/>
+        
+        
+    </LinearLayout>
+    
+
+</ScrollView>

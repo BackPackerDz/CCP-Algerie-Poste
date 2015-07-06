@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">CCP</string>
+    <string name="accueil" >Accueil</string>
+    <string name="extrait_compte" >Extrait de compte</string>
+    <string name="relevet">Relevé de compte</string>
+    <string name="carnet" >Carnet de chèques</string>
+    <string name="mot_de_passe" >Mot de passe</string>
+    <string name="contact">Contact</string>
+    				
+
+
+</resources>

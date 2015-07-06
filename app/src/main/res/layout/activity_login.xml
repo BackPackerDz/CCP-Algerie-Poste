@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:text="Mettez vos identifiants de l'espace ooredoo, si vous ne les connaissez pas aller sur le site pour vous inscrire" />
+
+    
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/editUsername"
+            android:maxLength="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:inputType="number"
+            android:hint="Numéro CCP" 
+            bootstrapbutton:be_roundedCorners="false"
+            bootstrapbutton:be_state="primary"
+	/>
+    
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/editPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:maxLength="4"
+            android:inputType="textPassword"
+            android:hint="Code" 
+            bootstrapbutton:be_roundedCorners="false"
+            bootstrapbutton:be_state="primary"
+	/>
+    
+    <ImageView
+        android:id="@+id/image_captcha"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+         /> 
+         
+   <com.beardedhen.androidbootstrap.FontAwesomeText
+        android:id="@+id/fontLoad"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    fontawesometext:fa_icon="fa-cog"
+	    android:layout_gravity="center"
+	    android:textSize="48sp"
+	/>
+    
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/edit_captcha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="Tapez le captcha" 
+            android:maxLength="4"
+            bootstrapbutton:be_roundedCorners="false"
+            bootstrapbutton:be_state="primary"
+	/>
+    
+	<com.beardedhen.androidbootstrap.BootstrapButton
+	    android:id="@+id/btn_login"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="10dp"
+	    android:layout_gravity="center_horizontal"
+	    android:text="Se connecter"
+	    bootstrapbutton:bb_icon_right="fa-user"
+	    bootstrapbutton:bb_type="primary"
+	/>
+	
+	<TextView 
+	    android:id="@+id/txt_no_serveur"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="10dp"
+	    android:textColor="#B20000"
+	    android:visibility="gone"
+	    android:text="Serveur indisponible, réessayer plus tard"
+	    />
+
+	<com.beardedhen.androidbootstrap.BootstrapButton
+	    android:id="@+id/btn_recovery"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="10dp"
+	    android:visibility="gone"
+	    android:layout_gravity="center_horizontal"
+	    android:text="Mot de passe oublié ?"
+	    fontawesometext:bb_icon_right="fa-cog"
+	    fontawesometext:bb_type="warning" >
+	</com.beardedhen.androidbootstrap.BootstrapButton>
+
+	<com.beardedhen.androidbootstrap.BootstrapButton
+	    android:id="@+id/btn_register"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="10dp"
+	    android:layout_gravity="center_horizontal"
+	    android:text="S'inscrire"
+	    android:visibility="gone"
+	    fontawesometext:bb_icon_right="fa-certificate"
+	    fontawesometext:bb_type="danger" >
+	</com.beardedhen.androidbootstrap.BootstrapButton>
+	
+	
+	<com.beardedhen.androidbootstrap.BootstrapButton
+	    android:id="@+id/btn_squalala"
+	    android:visibility="gone"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="10dp"
+	    android:layout_gravity="center_horizontal"
+	    android:text="Rejoignez-nous sur SQUALALA !!!"
+	    fontawesometext:bb_icon_right="fa-play"
+	    fontawesometext:bb_type="success" >
+	</com.beardedhen.androidbootstrap.BootstrapButton>
+
+</LinearLayout>
