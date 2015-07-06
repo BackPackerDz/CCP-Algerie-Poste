@@ -13,7 +13,7 @@
 
 <h2>Présentation</h2>
 
-C'une application Android native qui vous permet d'accéder à votre compte CCP Algérie Poste, car leur sité n'est pas adapté pour le mobile
+C'une application Android native qui vous permet d'accéder à votre compte CCP Algérie Poste, car leur site n'est pas adapté pour les mobiles.
 
 <h2>REMARQUE</h2>
 
