@@ -9,7 +9,7 @@
 
 ![alt tag](http://image.noelshack.com/fichiers/2015/28/1436193204-device-2014-10-27-055051.png)
 
-![alt tag](http://image.noelshack.com/fichiers/2015/28/1436193046-device-2014-10-26-232532.png))
+![alt tag](http://image.noelshack.com/fichiers/2015/28/1436193046-device-2014-10-26-232532.png)
 
 <h2>Présentation</h2>
 
